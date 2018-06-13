@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1528792983 source:/home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/main.cpp
+	<iostream>
+	<Clientes.h>
+	<Empleados.h>
+	<string>
+	<ListaCliente.h>
+	<PilaEmpleado.h>
+	<RandomClientes.h>
+
+1528785058 /home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/include/Clientes.h
+	<iostream>
+	<string>
+
+1528784487 /home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/include/Empleados.h
+	<string>
+
+1528785045 source:/home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/src/Clientes.cpp
+	"Clientes.h"
+
+1528787560 source:/home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/src/Empleados.cpp
+	"Empleados.h"
+
+1528786913 /home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/include/ListaCliente.h
+	<string>
+	<stdio.h>
+	<iostream>
+	<Clientes.h>
+
+1528786745 source:/home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/src/ListaCliente.cpp
+	"ListaCliente.h"
+	<Clientes.h>
+	<ListaCliente.h>
+	<iostream>
+
+1528792672 source:/home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/src/PilaEmpleado.cpp
+	"PilaEmpleado.h"
+	<Empleados.h>
+	<iostream>
+
+1528787049 /home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/include/PilaEmpleado.h
+	<Empleados.h>
+
+1528792672 /home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/include/RandomClientes.h
+	<stdlib.h>
+	<time.h>
+	<Clientes.h>
+	<ListaCliente.h>
+
+1528793475 source:/home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/src/RandomClientes.cpp
+	"RandomClientes.h"
+	<stdlib.h>
+	<time.h>
+	<Clientes.h>
+
