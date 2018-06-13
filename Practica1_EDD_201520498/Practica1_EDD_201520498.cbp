@@ -39,12 +39,14 @@
 		<Unit filename="include/ListaCliente.h" />
 		<Unit filename="include/PilaEmpleado.h" />
 		<Unit filename="include/RandomClientes.h" />
+		<Unit filename="include/RandomEmpleado.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Clientes.cpp" />
 		<Unit filename="src/Empleados.cpp" />
 		<Unit filename="src/ListaCliente.cpp" />
 		<Unit filename="src/PilaEmpleado.cpp" />
 		<Unit filename="src/RandomClientes.cpp" />
+		<Unit filename="src/RandomEmpleado.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

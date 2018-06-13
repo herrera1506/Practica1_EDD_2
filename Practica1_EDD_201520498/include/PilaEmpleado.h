@@ -9,8 +9,8 @@ class PilaEmpleado
         PilaEmpleado();
         virtual ~PilaEmpleado();
         int Id_Actual;
-            Empleados *primero;
-            Empleados *ultimo;
+            Empleados *primero=NULL;
+            Empleados *ultimo=NULL;
         void AgregarDatosEmpleado(string TipoEmpleado, string Informacion, string Empleado_Ubicacion);
         void MostrarDatosEmpleado();
 

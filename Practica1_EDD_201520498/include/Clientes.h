@@ -9,10 +9,11 @@ class Clientes
     public:
         Clientes();
         Clientes(string Nombre, string RagoEdad, int Edad, string Ubicacion, string TipoCliente, string Informacion, string Genero);
+        Clientes(string Nombre, string RagoEdad, int Edad, string Ubicacion, string TipoCliente, string Informacion, string Genero, int boleto);
         virtual ~Clientes();
-        Clientes *Siguiente;
-        Clientes *Anterior;
-        Clientes *ultimo;
+        Clientes *Siguiente=NULL;
+        Clientes *Anterior=NULL;
+
         int id;
         string Nombre;
         string RangoEdad;
@@ -22,13 +23,15 @@ class Clientes
         string Ubicacion;
         string Genero;
 
+        bool Boleto = false;
+        bool Cliente_en_Atencionalcliente = false;
+        bool Cliente_en_Seguridad =false;
+
 
     protected:
     private:
 
-        bool Boleto = false;
-        bool Cliente_en_Atencionalcliente = false;
-        bool Cliente_en_Seguridad =false;
+
 };
 
 

@@ -10,7 +10,6 @@ Empleados::Empleados()
         Empleado_Ubicacion="";
         Siguiente=NULL;
         Anterior=NULL;
-
 }
 
 Empleados::~Empleados()

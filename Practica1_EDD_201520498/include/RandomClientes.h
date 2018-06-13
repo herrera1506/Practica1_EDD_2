@@ -11,7 +11,9 @@ class RandomClientes
     public:
         RandomClientes();
         virtual ~RandomClientes();
-        ListaCliente * AgregarClientesRandom();
+
+        Clientes* AgregarClientesRandom(int dato);
+
     protected:
     private:
 };

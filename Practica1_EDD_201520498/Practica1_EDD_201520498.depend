@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1528792983 source:/home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/main.cpp
+1528871451 source:/home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/main.cpp
 	<iostream>
 	<Clientes.h>
 	<Empleados.h>
@@ -7,27 +7,33 @@
 	<ListaCliente.h>
 	<PilaEmpleado.h>
 	<RandomClientes.h>
+	<Paqueteria.h>
+	<RandomPaquetes.h>
+	<ListaPaqueteria.h>
+	<Equipaje.h>
+	<ListaEquipaje.h>
+	<RandomEquipaje.h>
 
-1528785058 /home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/include/Clientes.h
+1528869256 /home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/include/Clientes.h
 	<iostream>
 	<string>
 
 1528784487 /home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/include/Empleados.h
 	<string>
 
-1528785045 source:/home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/src/Clientes.cpp
+1528868668 source:/home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/src/Clientes.cpp
 	"Clientes.h"
 
-1528787560 source:/home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/src/Empleados.cpp
+1528862982 source:/home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/src/Empleados.cpp
 	"Empleados.h"
 
-1528786913 /home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/include/ListaCliente.h
+1528869257 /home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/include/ListaCliente.h
 	<string>
 	<stdio.h>
 	<iostream>
 	<Clientes.h>
 
-1528786745 source:/home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/src/ListaCliente.cpp
+1528869522 source:/home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/src/ListaCliente.cpp
 	"ListaCliente.h"
 	<Clientes.h>
 	<ListaCliente.h>
@@ -38,18 +44,70 @@
 	<Empleados.h>
 	<iostream>
 
-1528787049 /home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/include/PilaEmpleado.h
+1528869256 /home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/include/PilaEmpleado.h
 	<Empleados.h>
 
-1528792672 /home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/include/RandomClientes.h
+1528861722 /home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/include/RandomClientes.h
 	<stdlib.h>
 	<time.h>
 	<Clientes.h>
 	<ListaCliente.h>
 
-1528793475 source:/home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/src/RandomClientes.cpp
+1528869026 source:/home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/src/RandomClientes.cpp
 	"RandomClientes.h"
 	<stdlib.h>
 	<time.h>
 	<Clientes.h>
+	<iostream>
+	<string>
+
+1528862223 source:/home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/src/RandomEmpleado.cpp
+	"RandomEmpleado.h"
+	<stdlib.h>
+	<time.h>
+	<Clientes.h>
+	<iostream>
+	<string>
+	<PilaEmpleado.h>
+
+1528859873 /home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/include/RandomEmpleado.h
+	<PilaEmpleado.h>
+
+1528869256 /home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/include/Paqueteria.h
+	<iostream>
+	<Paqueteria.h>
+
+1528868077 /home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/include/RandomPaquetes.h
+	<Paqueteria.h>
+
+1528869257 /home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/include/ListaPaqueteria.h
+	<Paqueteria.h>
+
+1528869610 source:/home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/src/ListaPaqueteria.cpp
+	"ListaPaqueteria.h"
+	<Paqueteria.h>
+
+1528867858 source:/home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/src/Paqueteria.cpp
+	"Paqueteria.h"
+
+1528868318 source:/home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/src/RandomPaquetes.cpp
+	"RandomPaquetes.h"
+	<Paqueteria.h>
+
+1528871572 /home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/include/Equipaje.h
+	<Equipaje.h>
+	<iostream>
+
+1528871752 /home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/include/ListaEquipaje.h
+	<Equipaje.h>
+
+1528871770 /home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/include/RandomEquipaje.h
+	<Equipaje.h>
+
+1528871326 source:/home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/src/Equipaje.cpp
+	"Equipaje.h"
+
+1528871698 source:/home/edgar/Documents/Proyectos C++/Practica1_EDD_201520498/src/ListaEquipaje.cpp
+	"ListaEquipaje.h"
+	<Equipaje.h>
 

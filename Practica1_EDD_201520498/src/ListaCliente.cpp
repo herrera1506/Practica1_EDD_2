@@ -29,28 +29,35 @@ void ListaCliente::AgregarDatos(string Nombre, string RagoEdad, int Edad, string
         primero = Nuevo_Clientes_nodo;
         ultimo = Nuevo_Clientes_nodo;
     }
-
-
-
 }
+
+
+void ListaCliente::AgregarDatos2(Clientes *Nuevo_Nodo_Cliente){
+
+    Clientes *Nuevo_N_Cliente = Nuevo_Nodo_Cliente;
+    Nuevo_N_Cliente->id = this->Id_Actual;
+
+    if( primero != NULL){
+        ultimo->Siguiente = Nuevo_N_Cliente;
+        Nuevo_N_Cliente->Anterior = ultimo;
+        ultimo = Nuevo_N_Cliente;
+    }else {
+
+       primero = Nuevo_N_Cliente;
+       ultimo = Nuevo_N_Cliente;
+    }
+    }
+
 
 void ListaCliente::MostrarDatos()
 {
-      Clientes *aux = new Clientes();
-      aux=primero;
-
+      Clientes *aux =primero;
     while(aux != NULL)
     {
-        if(aux->Anterior!= NULL)
-         {
-            cout<<"<-"<<aux->Anterior->Nombre<<" ] - ";
-         }
-         cout<<" <-[ "<<aux->Nombre<<" ] -> ";
-         aux = aux->Siguiente;
-         if(aux!=NULL)
-         {
-             cout<<" ->[ "<<aux->Nombre<<" ] \n ";
-         }
+        cout<<"ID: "<< aux->Nombre<<"   Edad:   "<<aux->Edad<<"   Genero:  "<<aux->Genero<<"\n";;
+        aux= aux->Siguiente;
+
+
     }
 }
 

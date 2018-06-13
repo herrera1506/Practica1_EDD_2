@@ -28,6 +28,25 @@ Clientes::Clientes(string nombre, string RangoEdad, int Edad, string Ubicacion,s
     Genero=Genero;
 }
 
+
+Clientes::Clientes(string nombre, string RangoEdad, int Edad, string Ubicacion,string TipoCliente, string Informacion,string Genero,int boleto){
+
+    this->Nombre =nombre;
+    this->RangoEdad = RangoEdad;
+    this->Edad = Edad;
+    this->Ubicacion=Ubicacion;
+    this->TipoCliente=TipoCliente;
+    this->Informacion =Informacion;
+    this->Genero=Genero;
+
+    if(boleto==1)
+    {
+        this->Boleto=true;
+    }
+
+
+}
+
 Clientes::~Clientes()
 {
     //dtor
